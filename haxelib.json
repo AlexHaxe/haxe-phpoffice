@@ -5,11 +5,17 @@
 	"tags": [
 		"php",
 		"office",
+		"spreadsheet",
+		"word",
+		"xls",
+		"xlsx",
+		"doc",
+		"docx",
 		"externs"
 	],
 	"description": "Haxe externs for PHPOffice",
-	"version": "0.0.1",
-	"releasenote": "incomplete externs",
+	"version": "0.1.0",
+	"releasenote": "basic externs for PHPWord and PHPSpreadsheet - very incomplete",
 	"contributors": [
 		"AlexHaxe"
 	],

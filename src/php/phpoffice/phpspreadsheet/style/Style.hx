@@ -129,7 +129,7 @@ extern class Style {
 	 *
 	 * @return NumberFormat
 	 */
-	public function getNumberFormat():Any;
+	public function getNumberFormat():NumberFormat;
 
 	/**
 	 * Get Conditional Styles. Only used on supervisor.

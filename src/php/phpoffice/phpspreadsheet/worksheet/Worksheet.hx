@@ -2,6 +2,7 @@ package php.phpoffice.phpspreadsheet.worksheet;
 
 import php.phpoffice.phpspreadsheet.Spreadsheet;
 import php.phpoffice.phpspreadsheet.cell.Cell;
+import php.phpoffice.phpspreadsheet.style.Style;
 
 @:native("PhpOffice\\PhpSpreadsheet\\Worksheet\\Worksheet")
 extern class Worksheet {
@@ -487,7 +488,7 @@ extern class Worksheet {
 	 *
 	 * @return Style
 	 */
-	public function getStyle(cellCoordinate:String):Any;
+	public function getStyle(cellCoordinate:String):Style;
 
 	/**
 	 * Get conditional styles for a cell.
@@ -543,7 +544,7 @@ extern class Worksheet {
 	 *
 	 * @return Style
 	 */
-	public function getStyleByColumnAndRow(columnIndex1:Int, row1:Int, columnIndex2:Null<Int> = null, row2:Null<Int> = null):Any;
+	public function getStyleByColumnAndRow(columnIndex1:Int, row1:Int, columnIndex2:Null<Int> = null, row2:Null<Int> = null):Style;
 
 	/**
 	 * Duplicate cell style to a range of cells.
