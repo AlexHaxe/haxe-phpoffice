@@ -34,7 +34,6 @@ class Main {
       .setSubject("TestSpreadsheet")
       .setCategory("Test");
 
-
     var worksheet:Worksheet = spreadsheet.getActiveSheet();
     worksheet.getPageSetup ()
       .setPaperSize (A4)
