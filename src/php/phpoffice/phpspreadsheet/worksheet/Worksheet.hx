@@ -222,7 +222,7 @@ extern class Worksheet {
 	 *
 	 * @return PageSetup
 	 */
-	public function getPageSetup():Any;
+	public function getPageSetup():PageSetup;
 
 	/**
 	 * Set page setup.
@@ -231,14 +231,14 @@ extern class Worksheet {
 	 *
 	 * @return Worksheet
 	 */
-	public function setPageSetup(value:Any):Worksheet;
+	public function setPageSetup(value:PageSetup):Worksheet;
 
 	/**
 	 * Get page margins.
 	 *
 	 * @return PageMargins
 	 */
-	public function getPageMargins():Any;
+	public function getPageMargins():PageMargins;
 
 	/**
 	 * Set page margins.
@@ -247,7 +247,7 @@ extern class Worksheet {
 	 *
 	 * @return Worksheet
 	 */
-	public function setPageMargins(value:Any):Worksheet;
+	public function setPageMargins(value:PageMargins):Worksheet;
 
 	/**
 	 * Get page header/footer.

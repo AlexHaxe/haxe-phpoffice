@@ -4,8 +4,7 @@ Very incomplete collection of Haxe externs for [PHPWord](https://github.com/PHPO
 
 I have only implemented enough externs to make it work in one of my projects, if you find an api call or a type missing, please create an issue or open a pull request. Thanks!
 
-
-# Usage
+## Usage
 
 - First you need an installation of PHPOffice libraries so either PhpSpreadsheet or PHPWord (or both). You might also need parts of [Common](https://github.com/PHPOffice/Common) and maybe [SimpleCache](https://github.com/php-fig/simple-cache)
 - You need haxe-phpoffice library so run `haxelib install phpoffice`
@@ -17,7 +16,7 @@ I have only implemented enough externs to make it work in one of my projects, if
 - Add `-lib phpoffice` to your build files
 - Start using externs
 
-# Sample
+## Sample
 
 ```haxe
 import php.Lib;
