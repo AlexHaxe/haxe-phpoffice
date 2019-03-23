@@ -34,7 +34,19 @@ class Main {
       .setSubject("TestSpreadsheet")
       .setCategory("Test");
 
+
     var worksheet:Worksheet = spreadsheet.getActiveSheet();
+    worksheet.getPageSetup ()
+      .setPaperSize (A4)
+      .setOrientation (LANDSCAPE)
+      .setHorizontalCentered (true)
+      .setVerticalCentered (true)
+      .setFitToPage (true);
+    worksheet.getPageMargins ()
+      .setBottom (0.4)
+      .setTop (0.4)
+      .setLeft (0.4)
+      .setRight (0.4);
 
     worksheet.setTitle("Tab-Title");
     worksheet.getColumnDimension("A").setAutoSize(true);
