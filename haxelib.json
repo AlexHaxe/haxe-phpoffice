@@ -14,8 +14,8 @@
 		"externs"
 	],
 	"description": "Haxe externs for PHPOffice",
-	"version": "0.1.0",
-	"releasenote": "basic externs for PHPWord and PHPSpreadsheet - very incomplete",
+	"version": "0.2.0",
+	"releasenote": "added a few more externs for spreadsheet - see CHANGELOG",
 	"contributors": [
 		"AlexHaxe"
 	],
