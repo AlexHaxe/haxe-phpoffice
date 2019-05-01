@@ -2,6 +2,8 @@
 
 ## dev branch / next version (0.x.x)
 
+- Added Dimension base class
+
 ## version 0.2.0 (2019-03-23)
 
 - Added PageMargins to worksheet
