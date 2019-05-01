@@ -2,6 +2,8 @@
 
 ## dev branch / next version (0.x.x)
 
+## version 0.2.1 (2019-05-01)
+
 - Added Dimension base class
 
 ## version 0.2.0 (2019-03-23)
