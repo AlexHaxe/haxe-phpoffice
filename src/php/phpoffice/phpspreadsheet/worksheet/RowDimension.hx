@@ -1,7 +1,7 @@
 package php.phpoffice.phpspreadsheet.worksheet;
 
 @:native("PhpOffice\\PhpSpreadsheet\\Worksheet\\RowDimension")
-extern class RowDimension {
+extern class RowDimension extends Dimension {
 	/**
 	 * Create a new RowDimension.
 	 *

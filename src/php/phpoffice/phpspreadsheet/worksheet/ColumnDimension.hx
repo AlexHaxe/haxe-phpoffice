@@ -1,7 +1,7 @@
 package php.phpoffice.phpspreadsheet.worksheet;
 
 @:native("PhpOffice\\PhpSpreadsheet\\Worksheet\\ColumnDimension")
-extern class ColumnDimension {
+extern class ColumnDimension extends Dimension {
 	/**
 	 * Create a new ColumnDimension.
 	 *
