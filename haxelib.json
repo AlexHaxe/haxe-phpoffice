@@ -14,8 +14,8 @@
 		"externs"
 	],
 	"description": "Haxe externs for PHPOffice",
-	"version": "0.2.1",
-	"releasenote": "added Dimension base class - see CHANGELOG",
+	"version": "0.3.0",
+	"releasenote": "added Xls and Xlsx readers - see CHANGELOG",
 	"contributors": [
 		"AlexHaxe"
 	],

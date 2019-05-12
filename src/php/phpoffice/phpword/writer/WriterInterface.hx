@@ -4,7 +4,7 @@ package php.phpoffice.phpword.writer;
  * Writer interface
  */
 @:native("PhpOffice\\PhpWord\\Writer\\WriterInterface")
-interface WriterInterface {
+extern interface WriterInterface {
 	/**
 	 * Save PhpWord to file
 	 *

@@ -6,7 +6,7 @@ package php.phpoffice.phpword.reader;
  * @since 0.8.0
  */
 @:native("PhpOffice\\PhpWord\\Reader\\ReaderInterface")
-interface ReaderInterface {
+extern interface ReaderInterface {
 	/**
 	 * Can the current ReaderInterface read the file?
 	 *

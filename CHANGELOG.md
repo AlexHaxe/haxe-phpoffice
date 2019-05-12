@@ -2,6 +2,11 @@
 
 ## dev branch / next version (0.x.x)
 
+## version 0.3.0 (2019-05-12)
+
+- Added Xls and Xlsx readers for spreadsheet
+- Added BaseWriter for spreadsheet
+
 ## version 0.2.1 (2019-05-01)
 
 - Added Dimension base class
