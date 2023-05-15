@@ -2,6 +2,11 @@
 
 ## dev branch / next version (0.x.x)
 
+## version 0.3.1 (2023-05-15)
+
+- Refactored @:enum abstract to enum abstract
+- Dropped Haxe 3 support
+
 ## version 0.3.0 (2019-05-12)
 
 - Added Xls and Xlsx readers for spreadsheet

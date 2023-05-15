@@ -67,7 +67,7 @@ extern class Tab extends AbstractStyle {
  *
  * @const string
  */
-@:enum abstract TabStopType(String) from String to String {
+enum abstract TabStopType(String) from String to String {
 	var Clear = "clear";
 	var Left = "left";
 	var Center = "center";
@@ -82,7 +82,7 @@ extern class Tab extends AbstractStyle {
  *
  * @const string
  */
-@:enum abstract TabLeaderType(String) from String to String {
+enum abstract TabLeaderType(String) from String to String {
 	var None = "none";
 	var Dot = "dot";
 	var Hyphen = "hyphen";

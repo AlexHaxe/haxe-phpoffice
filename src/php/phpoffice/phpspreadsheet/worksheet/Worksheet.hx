@@ -1308,7 +1308,7 @@ extern class Worksheet {
 	public function hasCodeName():Bool;
 }
 
-@:enum abstract Breaktype(Int) to Int {
+enum abstract Breaktype(Int) to Int {
 	var BREAK_NONE = 0;
 	var BREAK_ROW = 1;
 	var BREAK_COLUMN = 2;

@@ -122,7 +122,7 @@ extern class NumberFormat {
 }
 
 // Pre-defined formats
-@:enum abstract NumberFormatType(String) from String to String {
+enum abstract NumberFormatType(String) from String to String {
 	var General = "General";
 	var Text = "@";
 	var Number = "0";

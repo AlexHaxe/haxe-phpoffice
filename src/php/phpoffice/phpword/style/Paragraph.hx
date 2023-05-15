@@ -405,7 +405,7 @@ extern class Paragraph extends Border {
 	public function setSuppressAutoHyphens(suppressAutoHyphens:Bool):Void;
 }
 
-@:enum abstract TextAlignment(String) from String to String {
+enum abstract TextAlignment(String) from String to String {
 	// Align Text at Top
 	var Top = "top";
 	// Align Text at Center

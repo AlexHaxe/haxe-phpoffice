@@ -236,7 +236,7 @@ extern class Properties {
 	public function setCustomProperty(propertyName:String, propertyValue:Any, propertyType:Null<PropertyType> = null):Properties;
 }
 
-@:enum abstract PropertyType(String) to String {
+enum abstract PropertyType(String) to String {
 	var PROPERTY_TYPE_BOOLEAN = "b";
 	var PROPERTY_TYPE_INTEGER = "i";
 	var PROPERTY_TYPE_FLOAT = "f";

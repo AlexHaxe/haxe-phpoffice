@@ -665,7 +665,7 @@ extern class Spreadsheet {
 	public function setTabRatio(tabRatio:Int):Void;
 }
 
-@:enum abstract Visibility(String) to String {
+enum abstract Visibility(String) to String {
 	// // Allowable values for workbook window visilbity
 	var VISIBILITY_VISIBLE = 'visible';
 	var VISIBILITY_HIDDEN = 'hidden';

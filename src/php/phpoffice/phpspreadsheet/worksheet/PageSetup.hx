@@ -434,7 +434,7 @@ extern class PageSetup {
 	public function resetFirstPageNumber():PageSetup;
 }
 
-@:enum abstract PaperSize(Int) to Int {
+enum abstract PaperSize(Int) to Int {
 	// Paper size
 	var LETTER = 1;
 	var LETTER_SMALL = 2;
@@ -505,14 +505,14 @@ extern class PageSetup {
 }
 
 // Page orientation
-@:enum abstract Orientation(String) to String {
+enum abstract Orientation(String) to String {
 	var DEFAULT = 'default';
 	var LANDSCAPE = 'landscape';
 	var PORTRAIT = 'portrait';
 }
 
 // Print Range Set Method
-@:enum abstract SetPrintRange(String) to String {
+enum abstract SetPrintRange(String) to String {
 	var OVERWRITE = 'O';
 	var INSERT = 'I';
 }

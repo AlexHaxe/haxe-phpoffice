@@ -38,7 +38,7 @@ extern class IOFactory {
 	public static function load(filename:String, readerName:ReaderTypes = Word2007):PhpWord;
 }
 
-@:enum abstract ReaderTypes(String) to String {
+enum abstract ReaderTypes(String) to String {
 	var OdText = "ODText";
 	var Rtf = "RTF";
 	var Word2007 = "Word2007";
@@ -46,7 +46,7 @@ extern class IOFactory {
 	var Pdf = "PDF";
 }
 
-@:enum abstract WriterTypes(String) to String {
+enum abstract WriterTypes(String) to String {
 	var OdText = "ODText";
 	var Rtf = "RTF";
 	var Word2007 = "Word2007";

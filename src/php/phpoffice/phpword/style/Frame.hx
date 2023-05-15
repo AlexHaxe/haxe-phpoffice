@@ -303,7 +303,7 @@ extern class Frame extends AbstractStyle {
  *
  * @const string
  */
-@:enum abstract PosType(String) from String to String {
+enum abstract PosType(String) from String to String {
 	var Absolute = "absolute";
 	var Relative = "relative";
 }
@@ -313,7 +313,7 @@ extern class Frame extends AbstractStyle {
  *
  * @const string
  */
-@:enum abstract HPosType(String) from String to String {
+enum abstract HPosType(String) from String to String {
 	var Absolute = "absolute";
 	var Left = "left";
 	var Center = "center";
@@ -327,7 +327,7 @@ extern class Frame extends AbstractStyle {
  *
  * @const string
  */
-@:enum abstract VPosType(String) from String to String {
+enum abstract VPosType(String) from String to String {
 	var Absolute = "absolute";
 	var Top = "top";
 	var Center = "center";
@@ -341,7 +341,7 @@ extern class Frame extends AbstractStyle {
  *
  * @const string
  */
-@:enum abstract HPosRelType(String) from String to String {
+enum abstract HPosRelType(String) from String to String {
 	var Margin = "margin";
 	var Page = "page";
 	var Column = "column";
@@ -357,7 +357,7 @@ extern class Frame extends AbstractStyle {
  *
  * @const string
  */
-@:enum abstract VPosRelType(String) from String to String {
+enum abstract VPosRelType(String) from String to String {
 	var Margin = "margin";
 	var Page = "page";
 	var Text = "text";
@@ -373,7 +373,7 @@ extern class Frame extends AbstractStyle {
  *
  * @const string
  */
-@:enum abstract WrapType(String) from String to String {
+enum abstract WrapType(String) from String to String {
 	var Inline = "inline";
 	var Square = "square";
 	var Tight = "tight";

@@ -300,7 +300,7 @@ extern class Section extends Border {
  *
  * @const string
  */
-@:enum abstract Orientation(String) from String to String {
+enum abstract Orientation(String) from String to String {
 	var Portrait = "portrait";
 	var Landscape = "landscape";
 }

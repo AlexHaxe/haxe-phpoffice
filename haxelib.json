@@ -14,8 +14,8 @@
 		"externs"
 	],
 	"description": "Haxe externs for PHPOffice",
-	"version": "0.3.0",
-	"releasenote": "added Xls and Xlsx readers - see CHANGELOG",
+	"version": "0.3.1",
+	"releasenote": "refactored @:enum to enum - see CHANGELOG",
 	"contributors": [
 		"AlexHaxe"
 	],

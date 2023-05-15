@@ -424,7 +424,7 @@ extern class Font extends AbstractStyle {
  *
  * @const string
  */
-@:enum abstract Underline(String) from String to String {
+enum abstract Underline(String) from String to String {
 	var None = "none";
 	var Dash = "dash";
 	var DashHeavy = "dashHeavy";
@@ -450,7 +450,7 @@ extern class Font extends AbstractStyle {
  *
  * @const string
  */
-@:enum abstract ForegroundColor(String) from String to String {
+enum abstract ForegroundColor(String) from String to String {
 	var Yellow = "yellow";
 	var LigthGreen = "green";
 	var Cyan = "cyan";
